@@ -12,7 +12,7 @@ html {
 header {
     /* background:linear-gradient(#0a0a0a89, #1414146e), url(https://files.oaiusercontent.com/file-JMSq7cnThKxL6Xr2VacfUN?se=2025-01-13T19%3A02%3A35Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D1807a224-207a-4458-8053-cf7ed896dfc5.webp&sig=3hPXQ8g4%2BcHqVuUkBHNkHGgqXA/JEVd%2BI%2BW1bPeA0Og%3D)center/cover; */
     /* background:linear-gradient(#0a0a0a89, #1414146e), url(https://files.oaiusercontent.com/file-D419qqHDrhmAbcmZXzEkGy?se=2025-01-20T14%3A36%3A03Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D08d7a0ad-c3b7-45e6-8fa2-8cfc2396feb1.webp&sig=t2Om8Z1kV1cU5EwLoMuViBfSkXcW4wxwFqanre/xdt8%3D)center/cover; */
-    background:linear-gradient(#0a0a0a89, #1414146e), url(images/bgimage.webp)center/cover;
+    background:linear-gradient(#0a0a0a89, #1414146e), url(images/bgimage.jpeg)center/cover;
     height: 100vh;
     background-attachment: fixed;
 }
