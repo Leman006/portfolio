@@ -10,8 +10,6 @@ html {
 
 
 header {
-    /* background:linear-gradient(#0a0a0a89, #1414146e), url(https://files.oaiusercontent.com/file-JMSq7cnThKxL6Xr2VacfUN?se=2025-01-13T19%3A02%3A35Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D1807a224-207a-4458-8053-cf7ed896dfc5.webp&sig=3hPXQ8g4%2BcHqVuUkBHNkHGgqXA/JEVd%2BI%2BW1bPeA0Og%3D)center/cover; */
-    /* background:linear-gradient(#0a0a0a89, #1414146e), url(https://files.oaiusercontent.com/file-D419qqHDrhmAbcmZXzEkGy?se=2025-01-20T14%3A36%3A03Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D08d7a0ad-c3b7-45e6-8fa2-8cfc2396feb1.webp&sig=t2Om8Z1kV1cU5EwLoMuViBfSkXcW4wxwFqanre/xdt8%3D)center/cover; */
     background:linear-gradient(#0a0a0a89, #1414146e), url(images/bgimage.jpeg)center/cover;
     height: 100vh;
     background-attachment: fixed;
@@ -25,8 +23,14 @@ header {
 }
 
 
-.logo img{
-    width: 90px;
+.logo a{
+    font: 900 42px "Jersey 15";
+    text-transform: uppercase;
+    color: #F5F5DC;
+}
+
+.logo i{
+    font-size: 36px;
 }
 
 .navbar .fa-bars{
@@ -63,7 +67,7 @@ nav ul{
 
 .head-content h1{
     font: 900 50px "Nunito", sans-serif;
-    color: white;
+    color: #F5F5DC;
     margin-bottom: 20px;
     opacity: 0;
     transform: translateX(-100%);
@@ -86,7 +90,6 @@ nav ul{
     font: 600 18px "Nunito", sans-serif;
     text-transform: uppercase;
     letter-spacing: .2rem;
-    /* opacity: 0; */
     white-space: nowrap;
             overflow: hidden;
     animation: typewriter 2s steps(13) infinite alternate,
@@ -538,7 +541,7 @@ footer{
 }
 
 .network a:hover{
-    background-color: #a1c289;
+    background-color: #96bb7c;
 }
 
 
@@ -569,15 +572,7 @@ footer{
     .contact-info{
         width: auto;
     }
-    /* @keyframes typewriter {
-        from {
-            width: 0%;
-        }
     
-        to {
-            width: 30%;
-        }
-    } */
 }
 
 @media(max-width:1025px){
@@ -624,6 +619,12 @@ footer{
     }
     .foot-column p{
         width: 100%;
+    }
+    .logo a{
+        font-size: 36px;
+    }
+    .logo i{
+        font-size: 30px;
     }
 }
 
