@@ -92,8 +92,8 @@ nav ul{
     letter-spacing: .2rem;
     white-space: nowrap;
             overflow: hidden;
-    animation: typewriter 2s steps(13) infinite alternate,
-                blink 800ms steps(13) infinite normal;
+    animation: typewriter 2s steps(21) infinite alternate,
+                blink 800ms steps(21) infinite normal;
             border-right: 5px solid black;
 }
 
@@ -103,7 +103,7 @@ nav ul{
     }
 
     to {
-        width: 108%;
+        width: 105%;
     }
 }
 
